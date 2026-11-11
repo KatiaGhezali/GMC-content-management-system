@@ -1,0 +1,27 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Test and coverage outputs
+coverage/
+
+# Logs
+*.log
+logs/
+
+# Uploaded files (keep the directory placeholder)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
